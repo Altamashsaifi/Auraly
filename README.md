@@ -3,8 +3,8 @@
   <h1>Auraly 🎵</h1>
   <p><b>A sleek, lightweight desktop lyrics overlay for Windows 10 & 11 that displays real-time synchronized music lyrics directly on your taskbar.</b></p>
 
-  <a href="https://github.com/Altamashsaifi/Auraly/raw/main/Auraly.exe">
-    <img src="https://img.shields.io/badge/Download-Auraly.exe-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Download Auraly.exe" />
+  <a href="https://github.com/Altamashsaifi/Auraly/releases">
+    <img src="https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Download Latest Release" />
   </a>
 </div>
 
@@ -13,14 +13,16 @@
 ---
 
 ## 🚀 Instant Download & Run (No Python Required)
-You can directly download the pre-compiled executable and run it immediately:
-- 📥 **[Download Auraly.exe](https://github.com/Altamashsaifi/Auraly/raw/main/Auraly.exe)** (Double-click to run!)
+You can directly download the pre-compiled application from the **[Releases Section](https://github.com/Altamashsaifi/Auraly/releases)**:
 
-> [!NOTE]
-> **Windows SmartScreen / Antivirus Warning?**  
-> Because `Auraly.exe` is an open-source standalone binary compiled with PyInstaller and isn't signed with a paid digital certificate ($300+/year), Windows SmartScreen or Chrome may flag it as an "Unknown Publisher / Uncommonly downloaded" file. This is a standard false positive.  
-> - **In Chrome / Edge**: Click `Keep` -> `Keep anyway`.  
-> - **In Windows SmartScreen**: Click **"More info"** -> Click **"Run anyway"**.
+- 📦 **`Auraly-Portable.zip`** (*Recommended — Extract & double-click `Auraly.exe`*)
+- 📥 **`Auraly.exe`** (*Standalone single executable*)
+
+> [!TIP]
+> **If Windows Defender Blocks Single `.exe`**:  
+> Download **`Auraly-Portable.zip`** from Releases! Zip releases bypass Windows Defender false-positive packer warnings completely.
+
+---
 
 ## ✨ Features
 - **Taskbar Integration**: Clean, transparent overlay anchored seamlessly to your taskbar.
@@ -31,7 +33,7 @@ You can directly download the pre-compiled executable and run it immediately:
 
 ## 📋 Requirements (Only for running from source)
 - Windows 10 / Windows 11
-- Python 3.10+ (Optional if using `Auraly.exe`)
+- Python 3.10+ (Optional if using pre-built release)
 
 ## 🛠️ Quick Start (Running from Source)
 
@@ -50,13 +52,6 @@ You can directly download the pre-compiled executable and run it immediately:
    ```bash
    python main.py
    ```
-
-## 📦 Building Executable
-
-To rebuild the standalone `.exe` using PyInstaller:
-```bash
-pyinstaller --noconfirm --onedir --windowed --icon=app_icon.ico --add-data "app_icon.ico;." --add-data "app_icon.png;." main.py
-```
 
 ## 📄 License
 MIT
