@@ -23,7 +23,7 @@ You can directly download the pre-compiled executable and run it immediately:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Auraly.git
+   git clone https://github.com/Altamashsaifi/Auraly.git
    cd Auraly
    ```
 
