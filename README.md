@@ -16,6 +16,12 @@
 You can directly download the pre-compiled executable and run it immediately:
 - 📥 **[Download Auraly.exe](https://github.com/Altamashsaifi/Auraly/raw/main/Auraly.exe)** (Double-click to run!)
 
+> [!NOTE]
+> **Windows SmartScreen / Antivirus Warning?**  
+> Because `Auraly.exe` is an open-source standalone binary compiled with PyInstaller and isn't signed with a paid digital certificate ($300+/year), Windows SmartScreen or Chrome may flag it as an "Unknown Publisher / Uncommonly downloaded" file. This is a standard false positive.  
+> - **In Chrome / Edge**: Click `Keep` -> `Keep anyway`.  
+> - **In Windows SmartScreen**: Click **"More info"** -> Click **"Run anyway"**.
+
 ## ✨ Features
 - **Taskbar Integration**: Clean, transparent overlay anchored seamlessly to your taskbar.
 - **System Media Support (GSMTC)**: Automatically detects playing music from Spotify, Apple Music, YouTube (Chrome/Edge), Tidal, VLC, and Windows Media Player.
