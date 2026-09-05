@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" width="180" alt="Auraly Logo" />
+  <img src="logo.png" width="240" alt="Auraly Logo" />
   <h1>Auraly 🎵</h1>
   <p><b>A sleek, lightweight desktop lyrics overlay for Windows 10 & 11 that displays real-time synchronized music lyrics directly on your taskbar.</b></p>
 
