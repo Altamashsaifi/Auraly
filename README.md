@@ -1,0 +1,42 @@
+# Auraly 🎵
+
+A sleek, lightweight desktop lyrics overlay for Windows 10 & 11 that displays real-time synchronized music lyrics directly on your taskbar.
+
+## Features
+- **Taskbar Integration**: Clean, transparent overlay anchored seamlessly to your taskbar.
+- **System Media Support (GSMTC)**: Automatically detects playing music from Spotify, Apple Music, YouTube (Chrome/Edge), Tidal, VLC, and Windows Media Player.
+- **Live Synchronized Lyrics**: Fetches synchronized `.lrc` lyrics automatically via LRCLIB.
+- **Customizable Appearance**: Soothing geometric typography, adjustable opacity, dark/light adaptation.
+- **Low Footprint**: Ultra-lightweight PyQt6 background process.
+
+## Requirements
+- Windows 10 / Windows 11
+- Python 3.10+
+
+## Quick Start (Running from Source)
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Auraly.git
+   cd Auraly
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+   ```bash
+   python main.py
+   ```
+
+## Building Executable
+
+To build a standalone `.exe` using PyInstaller:
+```bash
+pyinstaller --noconfirm --onedir --windowed --icon=app_icon.ico --add-data "app_icon.ico;." --add-data "app_icon.png;." main.py
+```
+
+## License
+MIT
