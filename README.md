@@ -2,16 +2,22 @@
 
 A sleek, lightweight desktop lyrics overlay for Windows 10 & 11 that displays real-time synchronized music lyrics directly on your taskbar.
 
+## 🚀 Instant Download & Run (No Python Required)
+You can directly download the pre-compiled executable and run it immediately:
+- 📥 **[Download Auraly.exe](Auraly.exe?raw=true)** (Double-click to run!)
+
+---
+
 ## Features
 - **Taskbar Integration**: Clean, transparent overlay anchored seamlessly to your taskbar.
 - **System Media Support (GSMTC)**: Automatically detects playing music from Spotify, Apple Music, YouTube (Chrome/Edge), Tidal, VLC, and Windows Media Player.
 - **Live Synchronized Lyrics**: Fetches synchronized `.lrc` lyrics automatically via LRCLIB.
 - **Customizable Appearance**: Soothing geometric typography, adjustable opacity, dark/light adaptation.
-- **Low Footprint**: Ultra-lightweight PyQt6 background process.
+- **Low Footprint**: Ultra-lightweight background process.
 
-## Requirements
+## Requirements (Only for running from source)
 - Windows 10 / Windows 11
-- Python 3.10+
+- Python 3.10+ (Optional if using `Auraly.exe`)
 
 ## Quick Start (Running from Source)
 
@@ -33,7 +39,7 @@ A sleek, lightweight desktop lyrics overlay for Windows 10 & 11 that displays re
 
 ## Building Executable
 
-To build a standalone `.exe` using PyInstaller:
+To rebuild the standalone `.exe` using PyInstaller:
 ```bash
 pyinstaller --noconfirm --onedir --windowed --icon=app_icon.ico --add-data "app_icon.ico;." --add-data "app_icon.png;." main.py
 ```
