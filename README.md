@@ -4,7 +4,7 @@ A sleek, lightweight desktop lyrics overlay for Windows 10 & 11 that displays re
 
 ## 🚀 Instant Download & Run (No Python Required)
 You can directly download the pre-compiled executable and run it immediately:
-- 📥 **[Download Auraly.exe](Auraly.exe?raw=true)** (Double-click to run!)
+- 📥 **[Download Auraly.exe](https://github.com/Altamashsaifi/Auraly/raw/main/Auraly.exe)** (Double-click to run!)
 
 ---
 
