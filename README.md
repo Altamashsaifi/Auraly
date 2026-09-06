@@ -6,9 +6,18 @@
   <a href="https://github.com/Altamashsaifi/Auraly/releases">
     <img src="https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Download Latest Release" />
   </a>
+  <a href="https://github.com/Altamashsaifi/Auraly/raw/main/docs/Auraly_Technical_Documentation.pdf">
+    <img src="https://img.shields.io/badge/Documentation-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Technical Documentation PDF" />
+  </a>
 </div>
 
 <br />
+
+---
+
+## 📄 Technical Architecture & Documentation
+For a complete deep-dive into the system architecture, WinRT GSMTC media session hooks, microsecond UTC offset drift math, and context menu subsystem:
+- 📘 **[Download Complete Technical Documentation (PDF)](https://github.com/Altamashsaifi/Auraly/raw/main/docs/Auraly_Technical_Documentation.pdf)**
 
 ---
 
